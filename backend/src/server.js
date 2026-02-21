@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors({
-    origin: ["https://assignment-14-crm-9m7t.vercel.app/"], 
+    origin: ["https://assignment-14-crm-9m7t.vercel.app"], 
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     credentials: true
 }));
